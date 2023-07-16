@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    .geolablogo {
+        margin-top: 24px;
+        margin-left: 100px;
+    }
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 33px;
+        margin-right: 70px;
+        a {
+            color: #636060;
+            font-family: Helvetica;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-left: 50px;
+        }
+    }
+}
+
+.s1 {
+    background-image: url(images/img1);
+    width: 1440px;
+    height: 606px;
+}
+
+
+
