@@ -11,7 +11,7 @@ header {
         margin-top: 33px;
         margin-right: 70px;
         a {
-            color: #636060;
+            color: $color1;
             font-family: Helvetica;
             font-size: 17px;
             font-style: normal;
@@ -23,10 +23,109 @@ header {
 }
 
 .s1 {
-    background-image: url(images/img1);
-    width: 1440px;
+    margin-top: 18px;
+    background-image: url(../Images/img1.jpg);
+    width: 100%;
     height: 606px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    .s-1 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        margin-bottom: 31px;
+        color: $color2;
+        font-family: Helvetica;
+        font-size: 79px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+    }
+    h4 {
+        color: $color2;
+        font-family: Helvetica;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
 }
 
+.s2 {
+    margin-top: 84px;
+    .textbox {
+        width: 235px;
+        margin-left: 100px;
+        h5 {
+            color: $color1;
+            font-family: Helvetica;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        
+        h2 {
+            color: $color3;
+            font-family: Helvetica;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 9px;
+        }
+        
+        p {
+            margin-top: 37px;
+            color: $color1;
+            font-family: Helvetica;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
 
+.s2wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    max-width: 924px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    .card {
+        width: 286px;
+        margin-right: 20px;
+    }
+    h3 {
+        margin-top: 23px;
+        color: $color4;
+        font-family: Helvetica;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    p {
+        margin-top: 9px;
+        width: 286px;
+        color: $color1;
+        font-family: Helvetica;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
 
